@@ -1,0 +1,24 @@
+.modalHeader {
+    text-align: center;
+    /* margin-top: 50px; */
+}
+
+.userAndGroupDiv {
+    display: flex;
+    margin-top: 25px;
+}
+
+.options {
+    display: flex;
+}
+
+.modalBtns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sendBtn {
+    text-align: center;
+    margin-top: 20px;
+    width: 40%;
+}

@@ -1,0 +1,53 @@
+.modalHeader {
+    text-align: center;
+    /* margin-top: 50px; */
+}
+
+.userAndGroupDiv {
+    display: flex;
+    margin-top: 25px;
+}
+
+.newGroupInfo {
+    height: 300px;
+    overflow: scroll;
+}
+
+.searchBarInput {
+    border: none;
+    font-size: 17px;
+    width: 300px;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    margin-top: 9px;
+    margin-left: 7.5px;
+  }
+
+ul {
+    list-style: none;
+}
+
+li {
+    border-bottom: 1px solid grey;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.svgInputBtn {
+    margin-left: 30px;
+}
+
+.options {
+    display: flex;
+}
+
+.modalBtns {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sendBtn {
+    text-align: center;
+    margin-top: 20px;
+    width: 30%;
+}

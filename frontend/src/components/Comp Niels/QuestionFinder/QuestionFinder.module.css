@@ -1,0 +1,31 @@
+.questionFinderDiv {
+  width: 350px;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 500px;
+  overflow: scroll;
+}
+
+.searchBarInput {
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 5px;
+  font-size: 23px;
+  width: 100%;
+  padding: 5px;
+}
+
+.question {
+  border: 1px solid black;
+  width:  100%;
+  padding: 5px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.questionText {
+  width: 80%;
+  cursor: pointer;
+}

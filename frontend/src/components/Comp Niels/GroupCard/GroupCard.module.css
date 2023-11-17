@@ -1,0 +1,15 @@
+.card {
+    border: 1px solid black;
+    height: 450px;
+    width: 300px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newGroupBtn {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}

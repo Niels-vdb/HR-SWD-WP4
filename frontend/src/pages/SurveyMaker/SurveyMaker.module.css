@@ -1,0 +1,62 @@
+.surveyMakerScreen {
+    display: flex;
+    /* margin-top: 50px; */
+}
+
+.surveyMaker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    width: 800px;
+}
+
+.surveyTitle {
+    width: 80%;
+    text-align: center;
+    padding: 7.5px;
+    font-size: 26px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.surveyDescription {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.newQuestionBtns {
+    display: flex;
+    gap: 20px;
+}
+
+.wrapBtn {
+    pointer-events: none;
+    background: none;
+    border: none;
+}
+
+.questionFinder {
+    position: fixed;
+    right: 20px;
+}
+
+.UserBtns {
+    display: flex;
+    justify-content: center;
+    width: 76%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.modal {
+    position: 'absolute';
+    top: '50%';
+    left: '50%';
+    transform: 'translate(-50%, -50%)';
+    width: 400;
+    background-color: 'background.paper';
+    border: '2px solid #000';
+    box-shadow: 24;
+}
+  

@@ -1,0 +1,40 @@
+.card {
+    border: 1px solid black;
+    height: 450px;
+    width: 300px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+}
+
+.searchBarInput {
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 16px;
+    padding: 2.5px;
+}
+
+.userCard {
+    width: 90%;
+}
+
+.usersDiv {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.userIcon {
+    margin-right: 25px;
+}
+
+.userDelete {
+    position: absolute;
+    right: 0;
+}
+
+.deleteBtn:hover {
+    color: red;
+}

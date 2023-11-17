@@ -1,0 +1,67 @@
+.newOpenQuestion {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 600px;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.newOpenQuestionInput {
+  width: 90%;
+  margin-top: 10px;
+  font-size: 16px;
+  border: 0;
+  border-bottom: 1px solid black;
+}
+
+.newOpenQuestionBtns {
+  margin-top: 5px;
+}
+
+.mcOptionsDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  gap: 5px;
+}
+
+.mcInput {
+  width: 400px;
+  border: 0;
+  border-bottom: 1px solid black;
+}
+
+.mcOption {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.radioBtn {
+  margin-right: 7.5px;
+}
+
+.plusBtn:hover {
+  color: green;
+  cursor: pointer;
+}
+
+/* .changeBtn:hover {
+    color: orange;
+    cursor: pointer;
+} */
+
+.saveBtn:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.deleteBtn:hover {
+  color: red;
+  cursor: pointer;
+}

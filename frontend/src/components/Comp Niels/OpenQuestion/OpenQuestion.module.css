@@ -1,0 +1,32 @@
+.openQuestion {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 600px;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  flex-direction: column;
+}
+
+.openQuestionInput {
+  width: 90%;
+  margin-top: 10px;
+  font-size: 16px;
+  border: 0;
+  border-bottom: 1px solid black;
+}
+
+.openQuestionBtns {
+  margin-top: 5px;
+}
+
+.saveBtn:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.deleteBtn:hover {
+  color: red;
+  cursor: pointer;
+}
